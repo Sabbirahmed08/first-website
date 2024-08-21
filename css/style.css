@@ -19,6 +19,22 @@
 
 }
 
+.common-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    /* margin-top: 0; */
+
+}
+
+.common-description {
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #757575;
+    /* margin-bottom: 50px; */
+    text-align: justify;
+}
+
 /* navbar styles */
 .logo-name {
     font-size: 50px;
@@ -71,6 +87,7 @@ nav li a {
     background-position: bottom right;
     justify-content: space-between;
     padding: 10px 0px 0 50px;
+    margin-bottom: 100px;
 
 }
 
@@ -106,4 +123,39 @@ nav li a {
 
 .special-button {
     margin-left: 20px;
+}
+
+/* about Section */
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 60px;
+
+}
+
+.about-section {
+    background-color: #FFFFFF;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 25px;
+}
+
+.about-information {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.input-name {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.input-type {
+    margin-top: 0;
 }
