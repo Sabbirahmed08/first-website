@@ -177,18 +177,68 @@ nav li a {
 .what-i-do-cards {
     display: flex;
     justify-content: space-between;
-
 }
 
 .cards {
     width: 180px;
-    box-shadow: 1px 3px 8px black;
+    box-shadow: 2px -1px 8px black;
     padding: 20px;
-
+    border-radius: 4px;
 }
 
 .card-description {
     font-size: 15px;
     text-align: justify;
     font-weight: 300;
+}
+
+/* resume-section */
+.my-resume {
+    margin-top: 100px;
+}
+
+.my-resume>h2 {
+    margin-bottom: 50px;
+}
+
+.resume-flexbox {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.my-education {
+    margin-right: 25px;
+}
+
+
+.resume-title {
+    color: #474747;
+    margin-bottom: 25px;
+}
+
+.resume-info h2 {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 650;
+}
+
+.resume-info h3 {
+    font-size: 16px;
+    color: #474747;
+    font-weight: 600;
+}
+
+.resume-info p {
+    color: #474747;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.button-special-custom {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 100px;
 }
