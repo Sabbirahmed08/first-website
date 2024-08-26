@@ -242,3 +242,56 @@ nav li a {
     margin-top: 35px;
     margin-bottom: 100px;
 }
+
+/* footer-part */
+footer {
+    background-color: #FFF8F3;
+    height: 600px;
+}
+
+.footer-section {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+.footer-form input {
+    display: block;
+    width: 300px;
+    padding: 16px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #FD6E0A;
+}
+
+.footer-form textarea {
+    display: block;
+    width: 300px;
+    padding: 16px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #FD6E0A;
+}
+
+.footer-info {
+    width: 40%;
+}
+
+.footer-content-title {
+    font-size: 28px;
+
+}
+
+.footer-description {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    margin-right: 20px;
+}
